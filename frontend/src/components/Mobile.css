@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-height: 50%;
+    
+  }

@@ -1,0 +1,10 @@
+.cart-item button {
+    border-radius: 50%;
+    border:none;
+}
+.cart-item button:hover {
+    background:lightgray;
+}
+.cart-item p {
+    margin: 5px;
+}
